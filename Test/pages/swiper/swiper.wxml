@@ -1,0 +1,22 @@
+<!--pages/swiper/swiper.wxml-->
+<swiper class="swiper-container"indicator-dots indicator-color="white" indicator-active-color="green" autoplay>
+<swiper-item>
+    <view class="item">       A   </view>
+</swiper-item>
+
+<swiper-item>
+    <view class="item">       B   </view>
+</swiper-item>
+
+<swiper-item>
+    <view class="item">       C   </view>
+</swiper-item>
+</swiper>
+
+<view class="test01">
+Phone num:
+<text selectable>13300000000</text>
+</view>
+<image mode="heightFix" src="/images/Varmice.jpg">
+
+</image>

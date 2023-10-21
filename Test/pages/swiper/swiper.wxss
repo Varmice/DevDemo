@@ -1,0 +1,29 @@
+/* pages/swiper/swiper.wxss */
+
+    .swiper-container{
+        height: 150px;
+    }
+
+    .item{
+        line-height: 150px;
+        text-align: center;
+    }
+    swiper-item:nth-child(1) .item{
+        background-color: red;
+        }
+
+     swiper-item:nth-child(2) .item{
+        background-color:green;
+        }
+    swiper-item:nth-child(3) .item{
+        background-color:blue;
+        }
+
+.test01{
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+}
+image{
+    border:1px solid red;
+}
