@@ -1,0 +1,20 @@
+<!--pages/dataBond/dataBond.wxml-->
+<view>
+    {{info}}
+    {{randomNum1}}
+    {{randomNum2}}
+    <view>
+        {{randomNum2 * 10 >=1 ? 'x >= 1' : 'x <= 1'}}
+    </view>
+    <view>{{randomNum2}}</view>
+    <button type="primary" bindtap = "btnTapHeadler">Button</button>
+    <view>====================================</view>
+    <button type="primary" bindtap="clickPlusOne">功德+1</button>
+</view>
+<view>
+    生成一个100以内的随机数：{{Temp * 100}}
+</view>
+<button type="primary" bind:tap="btn2" data-info="{{2}}"> 运气 + 2</button>
+
+</view>
+

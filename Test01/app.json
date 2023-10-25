@@ -1,5 +1,7 @@
 {
   "pages":[
+      "pages/events/events",
+    "pages/dataBond/dataBond",
     "pages/swiper/swiper",
     "pages/list/list",
     "pages/index/index",
