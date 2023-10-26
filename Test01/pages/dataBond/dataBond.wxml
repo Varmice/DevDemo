@@ -16,5 +16,4 @@
 </view>
 <button type="primary" bind:tap="btn2" data-info="{{2}}"> 运气 + 2</button>
 
-</view>
 

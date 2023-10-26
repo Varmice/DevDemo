@@ -1,2 +1,22 @@
 <!--pages/events/events.wxml-->
-<text>pages/events/events.wxml</text>
+<view>
+    <button type="primary" bindtap = "ChangeCount">Button</button>
+    <button type="primary" bind:tap="PlusTwo" data-info="{{2}}">+2</button>
+</view>
+<input bindinput="inputa" value="{{msg}}"></input>
+
+<view wx:if="{{type === 1}}">男</view>
+<view wx:elif="{{type === 2}}">女</view>
+<view wx:else>保密</view>
+
+<view wx:if="{{true}}">
+    <view>Gender</view>
+    <view>Age</view>
+</view>
+
+<block wx:if="{{true}}">
+    <view>Gender1</view>
+    <view>Age1</view>
+</block>
+
+<view hidden="{{flag}}">条件为ture时隐藏，false显示</view>

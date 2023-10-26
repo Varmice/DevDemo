@@ -5,9 +5,30 @@ Page({
    * 页面的初始数据
    */
   data: {
+      count:0,
+      type:1,
+      flag:true
 
   },
-
+//Button + 1
+  ChangeCount() {
+    this.setData({
+        count: this.data.count + 1
+    })
+  },
+  PlusTwo(e){
+        this.setData({
+            count: this.data.count + e.target.dataset.info
+        })
+  },
+  inputa(e){
+      //console.log(e.detail.value)
+      this.setData({
+          msg:e.detail.value
+      })
+  },
+  
+  
   /**
    * 生命周期函数--监听页面加载
    */
