@@ -20,3 +20,13 @@
 </block>
 
 <view hidden="{{flag}}">条件为ture时隐藏，false显示</view>
+
+<view>================================================</view>
+
+<view wx:for="{{array}}">
+    index:{{index}}     item:{{item}}
+</view>
+
+<view>---------------------------------------------</view>
+
+<view wx:for="{{userlist}}" wx:key="id">{{item.name}}</view>

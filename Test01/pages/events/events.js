@@ -7,7 +7,13 @@ Page({
   data: {
       count:0,
       type:1,
-      flag:true
+      flag:true,
+      array:['Apple','Huawei','xiaomi'],
+      userlist:[
+          {id: 1,name: 'Tom'},
+          {id: 2,name: 'Merry'},
+          {id: 3,name: 'Mike'}
+      ]
 
   },
 //Button + 1
