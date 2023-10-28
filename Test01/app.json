@@ -7,11 +7,26 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "list": [
+        {
+            "pagePath": "pages/events/events",
+            "text": "index"
+        },
+        {
+            "pagePath": "pages/list/list",
+            "text": "test"
+        }
+    ]
+
+  },
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#00ffff",
+    "navigationBarTitleText": "Varmice",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#ff0000"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

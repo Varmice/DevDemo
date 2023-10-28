@@ -9,12 +9,12 @@
 <view wx:elif="{{type === 2}}">女</view>
 <view wx:else>保密</view>
 
-<view wx:if="{{true}}">
+<view wx:if="{{true}}" wx:key="id4">
     <view>Gender</view>
     <view>Age</view>
 </view>
 
-<block wx:if="{{true}}">
+<block wx:if="{{true}}" wx:key="id3">
     <view>Gender1</view>
     <view>Age1</view>
 </block>
@@ -23,10 +23,11 @@
 
 <view>================================================</view>
 
-<view wx:for="{{array}}">
-    index:{{index}}     item:{{item}}
+<view wx:for="{{array}}" wx:key="id2">
+    index:{{index}},     item:{{item}}
 </view>
 
 <view>---------------------------------------------</view>
 
-<view wx:for="{{userlist}}" wx:key="id">{{item.name}}</view>
+<view wx:for="{{userlist}}" wx:key="id" class="username">{{item.name}}</view>
+<view>============================================</view>
