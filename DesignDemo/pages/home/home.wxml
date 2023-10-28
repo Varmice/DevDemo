@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<!--轮播图-->
+<swiper indicator-dots circular autoplay="ture">
+    <swiper-item>
+        <rich-text class="text01" style="line-height: 350rpx;text-align: center;font-size:80rpx;">7230263656</rich-text>
+    </swiper-item>
+    <swiper-item><image src="/images/flag.jpg"></image></swiper-item>
+    <swiper-item>3</swiper-item>
+</swiper>

@@ -1,0 +1,12 @@
+/* pages/home/home.wxss */
+swiper{
+    height: 350rpx;
+}
+swiper image{
+    height: 100%;
+    width: 100%;
+}
+.text01{
+    background-color: aqua;
+    
+}

@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/shopping/shopping",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0ff",
+    "navigationBarTitleText": "7230263656",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+      "list": [{
+          "pagePath": "pages/home/home",
+          "text": "Home",
+          "iconPath": "/images/home.png",
+          "selectedIconPath": "/images/home_active.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "Shopping",
+        "iconPath": "/images/shopping.png",
+        "selectedIconPath": "/images/shopping_active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "Mine",
+        "iconPath": "/images/mine.png",
+        "selectedIconPath": "/images/mine_active.png"
+      }
+    
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
