@@ -65,6 +65,10 @@ swiper image{
     font-size: 24px;
     font-weight: bolder;
 }
+.text11{
+    text-align: center;
+    text-indent: 28px;
+}
 
 
 
