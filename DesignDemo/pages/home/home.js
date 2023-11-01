@@ -14,6 +14,18 @@ Page({
     onLoad(options) {
 
     },
+    onHomeImageTap: function() {
+        // 使用 wx.switchTab 跳转到 TabBar 页面
+        wx.switchTab({
+          url: '/pages/shopping/shopping', // shopping 页面的路径
+        });
+      },
+      onHome2ImageTap: function() {
+        // 使用 wx.switchTab 跳转到 TabBar 页面
+        wx.switchTab({
+          url: '/pages/mine/mine', // shopping 页面的路径
+        });
+      },
 
     /**
      * 生命周期函数--监听页面初次渲染完成

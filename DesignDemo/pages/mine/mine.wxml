@@ -1,2 +1,5 @@
-<!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<navigator url="/pages/home/home" open-type="switchTab" bind:tap="navigateToHome">
+  <view>
+    <text class="back-text">返回主页</text>
+  </view>
+</navigator>
