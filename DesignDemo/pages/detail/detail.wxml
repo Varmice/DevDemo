@@ -1,0 +1,21 @@
+<!--轮播图-->
+<swiper indicator-dots circular autoplay="ture">
+    <swiper-item><image src="/images/003.png"></image></swiper-item>
+    <swiper-item><image src="/images/001.png"></image></swiper-item>
+    <swiper-item><image src="/images/002.png"></image></swiper-item>
+</swiper>
+<view class="middle">
+    <view class="middle1">
+        <text>老师看看这个呢，这个倒是没问题</text>
+    </view>
+    <view class="middle2"></view>
+    <view class="middle3"></view>
+</view>
+<view class="container">
+<text>老师帮我看看，这个container下面的四个子contariner咋撑不满呢</text>
+    <view class="container1"></view>
+    <view class="container2"></view>
+    <view class="container3"></view>
+    <view class="container4"></view>
+</view>
+<view class="bottom"></view>

@@ -1,0 +1,58 @@
+swiper{
+    height: 350rpx;
+}
+swiper image{
+    width: 100%;
+    height: 100%;
+}
+.middle{
+    height: 250rpx;
+    width: 100%;
+    background-color: white;
+}
+.middle1{
+    height: 33.3%;
+    width: 100%;
+    background-color:red;
+}
+.middle2{
+    height: 33.3%;
+    width: 100%;
+    background-color:green;
+}
+.middle3{
+    height: 33.3%;
+    width: 100%;
+    background-color:blue;
+}
+.container{
+    width: 100%;
+    height: 500rpx;
+    background-color: white;
+}
+.container1{
+    width: 100%;
+    height: 25%;
+    background-color: red;
+}
+.container2{
+    width: 100%;
+    height: 25%;
+    background-color: green;
+}
+.container3{
+    width: 100%;
+    height: 25%;
+    background-color: blue;
+}
+.container4{
+    width: 100%;
+    height: 25%;
+    background-color: gray;
+}
+
+.bottom{
+    width: 100%;
+    height: 120rpx;
+    background-color: grey;
+}

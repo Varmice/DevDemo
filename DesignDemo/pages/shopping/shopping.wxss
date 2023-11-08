@@ -2,7 +2,6 @@
 .shopping-list {
     padding: 20rpx;
   }
-  
   .product {
     display: flex;
     align-items: center;
@@ -10,26 +9,24 @@
     padding: 20rpx;
     background-color: #f5f5f5;
   }
-  
   .product-image {
     width: 100rpx;
     height: 100rpx;
     margin-right: 20rpx;
   }
-  
   .product-info {
     flex: 1;
   }
-  
   .product-name {
     font-size: 32rpx;
     color: #333;
     margin-bottom: 10rpx;
   }
-  
   .product-price {
     font-size: 28rpx;
     color: #f76d57;
     float: right;
   }
+  
+
   

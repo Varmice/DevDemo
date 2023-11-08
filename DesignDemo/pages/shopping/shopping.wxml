@@ -4,9 +4,52 @@
     <text class="back-text">返回主页</text>
   </view>
 </navigator>
-
 <!--=========================================================-->
 <view class="shopping-list">
+  <navigator url="/pages/detail/detail">
+    <view class="product">
+    <image class="product-image" src="/images/01.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">苹果(点击进入详情页）</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+  </navigator>
+  <navigator url="/pages/detail/detail">
+    <view class="product">
+    <image class="product-image" src="/images/02.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">香蕉(点击进入详情页) </text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+  </navigator>
+
+
+  <view class="product">
+    <image class="product-image" src="/images/03.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">梨</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/04.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">葡萄</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/05.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">西瓜</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
   <view class="product">
     <image class="product-image" src="/images/01.png" mode="aspectFill"></image>
     <view class="product-info">
@@ -67,6 +110,280 @@
     <image class="product-image" src="/images/home.png" mode="aspectFill"></image>
     <view class="product-info">
       <text class="product-name">xxxx</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/01.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">苹果</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/02.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">香蕉</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/03.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">梨</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/04.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">葡萄</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/05.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">西瓜</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+  <view class="product">
+    <image class="product-image" src="/images/01.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">苹果</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/02.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">香蕉</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/03.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">梨</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/04.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">葡萄</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/05.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">西瓜</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+  <view class="product">
+    <image class="product-image" src="/images/01.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">苹果</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/02.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">香蕉</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/03.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">梨</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/04.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">葡萄</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/05.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">西瓜</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+  <view class="product">
+    <image class="product-image" src="/images/01.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">苹果</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/02.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">香蕉</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/03.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">梨</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/04.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">葡萄</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/05.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">西瓜</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+  <view class="product">
+    <image class="product-image" src="/images/01.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">苹果</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/02.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">香蕉</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/03.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">梨</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/04.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">葡萄</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/05.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">西瓜</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+  <view class="product">
+    <image class="product-image" src="/images/01.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">苹果</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/02.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">香蕉</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/03.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">梨</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/04.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">葡萄</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/05.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">西瓜</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+  <view class="product">
+    <image class="product-image" src="/images/01.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">苹果</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/02.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">香蕉</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/03.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">梨</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/04.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">葡萄</text>
+      <text class="product-price">价格：$9.99</text>
+    </view>
+  </view>
+
+  <view class="product">
+    <image class="product-image" src="/images/05.png" mode="aspectFill"></image>
+    <view class="product-info">
+      <text class="product-name">西瓜</text>
       <text class="product-price">价格：$9.99</text>
     </view>
   </view>

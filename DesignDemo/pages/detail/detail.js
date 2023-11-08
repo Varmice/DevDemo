@@ -1,4 +1,4 @@
-// pages/shopping/shopping.js
+// pages/detail/detail.js
 Page({
 
     /**
@@ -7,12 +7,6 @@ Page({
     data: {
 
     },
-    
-    navigateToHome: function() {
-        wx.switchTab({
-          url: '/pages/home/home',
-        });
-      },
 
     /**
      * 生命周期函数--监听页面加载
@@ -25,10 +19,6 @@ Page({
      * 生命周期函数--监听页面初次渲染完成
      */
     onReady() {
-        wx.setNavigationBarTitle({
-          title: 'Shopping',
-        }),
-        wx.stopPullDownRefresh();
 
     },
 
@@ -57,14 +47,14 @@ Page({
      * 页面相关事件处理函数--监听用户下拉动作
      */
     onPullDownRefresh() {
-            wx.stopPullDownRefresh();
+
     },
 
     /**
      * 页面上拉触底事件的处理函数
      */
     onReachBottom() {
-        
+
     },
 
     /**

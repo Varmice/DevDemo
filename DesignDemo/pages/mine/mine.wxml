@@ -3,3 +3,7 @@
     <text class="back-text">返回主页</text>
   </view>
 </navigator>
+<view class="first">
+    <image src="/images/11.png" class="img1"></image>
+
+</view>
