@@ -1,0 +1,5 @@
+<!--components/test/test.wxml-->
+<view>count's data is:{{count}}</view>
+<button bind:tap="addCount">+ 1</button>
+<button bind:tap="showInfo">showInfo</button>
+<view>Max = {{max}}</view>
