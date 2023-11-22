@@ -1,2 +1,10 @@
+<!-- <mytest max = "10"></mytest> -->
 
-<mytest max = "10"></mytest>
+<!-- <mytest2></mytest2> -->
+
+<!-- <mytest3></mytest3>
+<image src="{{imgSrc}}"></image> -->
+<mytest5 count="{{count}}" bind:sync="syncCount" class="customA" id="cA"></mytest5>
+<view>==========</view>
+<view>父组件中,count的值为：{{count}}</view>
+<button bind:tap="getChild">获取子组件的实例对象</button>

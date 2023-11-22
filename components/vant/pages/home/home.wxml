@@ -1,0 +1,2 @@
+<van-button type = "primary" bind:tap="getInfo">Warning</van-button>
+<van-button type = "danger">Warning</van-button>

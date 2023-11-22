@@ -4,13 +4,24 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    canIUseGetUserProfile: false,
-    canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
+      count:0
   },
+  syncCount(e){
+      //console.log('syncCount')
+      //console.log(e)
+      //console.log(e.detail.value)
+    this.setData({
+        count:e.detail.value
+    })
+    },
+    getChild(){
+        const child = this.selectComponent('.customA')
+        // console.log(child)
+        child.setData({
+            count:child.properties.count + 1
+        })
+        child.addCount()
+    },
   // 事件处理函数
   bindViewTap() {
     wx.navigateTo({

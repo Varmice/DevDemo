@@ -10,7 +10,10 @@
     "navigationBarTextStyle":"black"
   },
   "usingComponents": {
-      "mytest":"/components/test/test"
+      "mytest":"/components/test/test",
+      "mytest2":"/components/test2/test2",
+      "mytest3":"/components/test3/test3",
+      "mytest5":"/components/test5/test5"
   },
 
   "style": "v2",

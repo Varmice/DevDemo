@@ -1,0 +1,3 @@
+<view>子组件中,count的值为：{{count}}</view>
+<button bind:tap="addCount">+ 1</button>
+<view>在behaviors中定义的用户名是:{{username}}</view>
